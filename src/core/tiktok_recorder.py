@@ -184,6 +184,29 @@ class TikTokRecorder:
             return str(Path(self.output) / filename)
         return filename
 
+
+    def _maybe_upload_to_telegram(self, flv_output_path: str):
+        if not self.use_telegram:
+            return
+        final_output = flv_output_path.replace("_flv.mp4", ".mp4")
+        if not Path(final_output).is_file():
+            logger.warning(f"Telegram upload skipped: file not found: {final_output}")
+            return
+        from upload.telegram import Telegram
+        try:
+            success = Telegram().upload(final_output)
+        except Exception as e:
+            logger.error(f"Unexpected error uploading to Telegram: {e}", exc_info=True)
+            success = False
+        if success:
+            try:
+                Path(final_output).unlink()
+                logger.info(f"Deleted local file after Telegram upload: {final_output}\n")
+            except Exception as e:
+                logger.warning(f"Could not delete local file {final_output}: {e}")
+        else:
+            logger.warning(f"Telegram upload failed. Keeping local file: {final_output}")
+
     def start_recording(self, user, room_id):
         """
         Start recording live
@@ -275,6 +298,8 @@ class TikTokRecorder:
 
         logger.info(f"Recording finished: {Path(output).resolve()}\n")
         VideoManagement.convert_flv_to_mp4(output, self.bitrate, self.ffmpeg_path)
+
+        self._maybe_upload_to_telegram(output)
 
     def check_country_blacklisted(self):
         is_blacklisted = self.tiktok.is_country_blacklisted()

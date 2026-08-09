@@ -1,0 +1,161 @@
+2026-08-08 16:52:03 [INFO] Checking and Installing dependencies...
+2026-08-08 16:52:06 [INFO] Skipped update check
+
+2026-08-08 16:52:08 [INFO] USERNAME: ngoctrinh89
+2026-08-08 16:52:09 [INFO] ROOM_ID:  7671121363427396359
+2026-08-08 16:52:11 [INFO] Started recording (stream 1/3)...
+2026-08-08 16:52:11 [INFO] [PRESS CTRL + C ONCE TO STOP]
+2026-08-08 16:53:47 [INFO] Recording stopped by user.
+2026-08-08 16:53:47 [WARNING] Stream 1/3 returned only 0 bytes. Trying another CDN/quality...
+2026-08-08 16:53:47 [INFO] Started recording (stream 2/3)...
+2026-08-08 16:53:47 [INFO] [PRESS CTRL + C ONCE TO STOP]
+2026-08-08 16:53:49 [WARNING] Stream 2/3 returned only 660 bytes. Trying another CDN/quality...
+2026-08-08 16:53:49 [INFO] Started recording (stream 3/3)...
+2026-08-08 16:53:49 [INFO] [PRESS CTRL + C ONCE TO STOP]
+2026-08-08 17:02:54 [INFO] Recording stopped by user.
+2026-08-08 17:02:54 [INFO] Recording finished: /home/tikrecvp/recordings/TK_ngoctrinh89_2026.08.08_16-52-11_flv.mp4
+
+2026-08-08 17:02:54 [INFO] Converting /home/tikrecvp/recordings/TK_ngoctrinh89_2026.08.08_16-52-11_flv.mp4 to MP4 format...
+2026-08-08 17:02:54 [INFO] Finished converting /home/tikrecvp/recordings/TK_ngoctrinh89_2026.08.08_16-52-11.mp4
+
+2026-08-08 17:09:49 [INFO] Checking and Installing dependencies...
+2026-08-08 17:09:50 [INFO] Skipped update check
+
+2026-08-08 17:09:55 [INFO] USERNAME: ngoctrinh89
+2026-08-08 17:09:56 [INFO] ROOM_ID:  7671121363427396359
+2026-08-08 17:09:57 [INFO] Started recording (stream 1/3)...
+2026-08-08 17:09:57 [INFO] [PRESS CTRL + C ONCE TO STOP]
+2026-08-08 17:15:48 [INFO] Recording stopped by user.
+2026-08-08 17:15:48 [INFO] Recording finished: /home/tikrecvp/recordings/TK_ngoctrinh89_2026.08.08_17-09-57_flv.mp4
+
+2026-08-08 17:15:48 [INFO] Converting /home/tikrecvp/recordings/TK_ngoctrinh89_2026.08.08_17-09-57_flv.mp4 to MP4 format...
+2026-08-08 17:15:48 [INFO] Finished converting /home/tikrecvp/recordings/TK_ngoctrinh89_2026.08.08_17-09-57.mp4
+
+2026-08-08 17:29:06 [INFO] Preparing to upload: /home/tikrecvp/recordings/TK_ngoctrinh89_2026.08.08_17-09-57.mp4
+2026-08-08 17:30:39 [INFO] File to upload: TK_ngoctrinh89_2026.08.08_17-09-57.mp4 (10 MB)
+2026-08-08 17:30:39 [INFO] Uploading video on Telegram... This may take a while depending on file size.
+2026-08-08 17:30:50 [INFO] File successfully uploaded to Telegram.
+
+2026-08-08 17:33:49 [INFO] Preparing to upload: /home/tikrecvp/recordings/TK_ngoctrinh89_2026.08.08_17-09-57.mp4
+2026-08-08 17:33:49 [INFO] File to upload: TK_ngoctrinh89_2026.08.08_17-09-57.mp4 (10 MB)
+2026-08-08 17:33:49 [INFO] Uploading video on Telegram... This may take a while depending on file size.
+2026-08-08 17:34:00 [INFO] File successfully uploaded to Telegram.
+
+2026-08-09 07:54:59 [INFO] Checking and Installing dependencies...
+2026-08-09 07:55:00 [INFO] Skipped update check
+
+2026-08-09 07:55:05 [INFO] USERNAME: dht_03thg1
+2026-08-09 07:55:10 [INFO] ROOM_ID:  7671927353190271760
+2026-08-09 07:55:11 [INFO] Started recording (stream 1/3)...
+2026-08-09 07:55:11 [INFO] [PRESS CTRL + C ONCE TO STOP]
+2026-08-09 07:59:25 [INFO] Recording stopped by user.
+2026-08-09 07:59:25 [INFO] Recording finished: /home/tikrecvp/recordings/TK_dht_03thg1_2026.08.09_07-55-11_flv.mp4
+
+2026-08-09 07:59:25 [INFO] Converting /home/tikrecvp/recordings/TK_dht_03thg1_2026.08.09_07-55-11_flv.mp4 to MP4 format...
+2026-08-09 07:59:25 [INFO] Finished converting /home/tikrecvp/recordings/TK_dht_03thg1_2026.08.09_07-55-11.mp4
+
+2026-08-09 07:59:26 [INFO] File to upload: TK_dht_03thg1_2026.08.09_07-55-11.mp4 (29 MB)
+2026-08-09 07:59:26 [INFO] Uploading video on Telegram... This may take a while depending on file size.
+2026-08-09 07:59:57 [INFO] File successfully uploaded to Telegram.
+
+2026-08-09 07:59:57 [INFO] Deleted local file after Telegram upload: /home/tikrecvp/recordings/TK_dht_03thg1_2026.08.09_07-55-11.mp4
+
+2026-08-09 08:07:54 [INFO] Checking and Installing dependencies...
+2026-08-09 08:07:55 [INFO] Skipped update check
+
+2026-08-09 08:07:59 [WARNING] [!] tikrec is unavailable (tikrec signing service is unreachable: Failed to perform, curl: (23) Failure writing output to destination, passed 17 returned 0. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.). Falling back to unsigned API — recording continues but may be less reliable.
+2026-08-09 08:08:03 [ERROR] Error extracting RoomID
+Traceback (most recent call last):
+  File "/home/tikrecvp/tiktok-live-recorder/.venv/lib/python3.14/site-packages/curl_cffi/requests/session.py", line 652, in request
+    c.perform()
+    ~~~~~~~~~^^
+  File "/home/tikrecvp/tiktok-live-recorder/.venv/lib/python3.14/site-packages/curl_cffi/curl.py", line 422, in perform
+    self._check_error(ret, "perform")
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/tikrecvp/tiktok-live-recorder/.venv/lib/python3.14/site-packages/curl_cffi/curl.py", line 199, in _check_error
+    raise error
+curl_cffi.curl.CurlError: Failed to perform, curl: (23) Failure writing output to destination, passed 17 returned 0. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tikrecvp/tiktok-live-recorder/src/core/tiktok_api.py", line 174, in _tikrec_get_room_id_signed_url
+    response = self.http_client.get(
+        f"{self.TIKREC_API}/tiktok/room/api/sign",
+        params={"unique_id": user},
+    )
+  File "/home/tikrecvp/tiktok-live-recorder/.venv/lib/python3.14/site-packages/curl_cffi/requests/session.py", line 675, in get
+    return self.request(method="GET", url=url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tikrecvp/tiktok-live-recorder/.venv/lib/python3.14/site-packages/curl_cffi/requests/session.py", line 659, in request
+    raise error(str(e), e.code, rsp) from e
+curl_cffi.requests.exceptions.RequestException: Failed to perform, curl: (23) Failure writing output to destination, passed 17 returned 0. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tikrecvp/tiktok-live-recorder/src/core/tiktok_api.py", line 204, in get_room_id_from_user
+    signed_url = self._tikrec_get_room_id_signed_url(user)
+  File "/home/tikrecvp/tiktok-live-recorder/src/core/tiktok_api.py", line 180, in _tikrec_get_room_id_signed_url
+    raise TikRecUnavailableError(
+        f"tikrec signing service is unreachable: {e}"
+    ) from e
+utils.custom_exceptions.TikRecUnavailableError: tikrec signing service is unreachable: Failed to perform, curl: (23) Failure writing output to destination, passed 17 returned 0. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tikrecvp/tiktok-live-recorder/src/main.py", line 13, in record_user
+    TikTokRecorder(config).run()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/tikrecvp/tiktok-live-recorder/src/core/tiktok_recorder.py", line 84, in run
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "/home/tikrecvp/tiktok-live-recorder/src/core/tiktok_recorder.py", line 53, in _setup
+    self.room_id = self.tiktok.get_room_id_from_user(self.user)
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/tikrecvp/tiktok-live-recorder/src/core/tiktok_api.py", line 210, in get_room_id_from_user
+    return self._old_get_room_id_from_user(user)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/tikrecvp/tiktok-live-recorder/src/core/tiktok_api.py", line 162, in _old_get_room_id_from_user
+    raise UserLiveError(TikTokError.ROOM_ID_ERROR)
+utils.custom_exceptions.UserLiveError: Error extracting RoomID
+2026-08-09 08:10:39 [INFO] Checking and Installing dependencies...
+2026-08-09 08:10:39 [INFO] Skipped update check
+
+2026-08-09 08:10:41 [INFO] Followers mode activated
+
+2026-08-09 08:10:41 [ERROR] Empty response from TikTok followers API.
+Traceback (most recent call last):
+  File "/home/tikrecvp/tiktok-live-recorder/src/main.py", line 13, in record_user
+    TikTokRecorder(config).run()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/tikrecvp/tiktok-live-recorder/src/core/tiktok_recorder.py", line 93, in run
+    self.followers_mode()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/tikrecvp/tiktok-live-recorder/src/core/tiktok_recorder.py", line 123, in followers_mode
+    followers = self.tiktok.get_followers_list(self.sec_uid)
+  File "/home/tikrecvp/tiktok-live-recorder/src/core/tiktok_api.py", line 267, in get_followers_list
+    raise TikTokRecorderError("Empty response from TikTok followers API.")
+utils.custom_exceptions.TikTokRecorderError: Empty response from TikTok followers API.
+2026-08-09 11:15:02 [INFO] Checking and Installing dependencies...
+2026-08-09 11:15:03 [INFO] Skipped update check
+
+2026-08-09 11:15:08 [INFO] USERNAME: uyen.ii
+2026-08-09 11:15:08 [INFO] ROOM_ID:  7671969765220895509
+2026-08-09 11:15:09 [INFO] Started recording (stream 1/3)...
+2026-08-09 11:15:09 [INFO] [PRESS CTRL + C ONCE TO STOP]
+2026-08-09 11:20:43 [INFO] Recording stopped by user.
+2026-08-09 11:20:43 [INFO] Recording finished: /home/tikrecvp/recordings/TK_uyen.ii_2026.08.09_11-15-09_flv.mp4
+
+2026-08-09 11:20:43 [INFO] Converting /home/tikrecvp/recordings/TK_uyen.ii_2026.08.09_11-15-09_flv.mp4 to MP4 format...
+2026-08-09 11:20:43 [INFO] Finished converting /home/tikrecvp/recordings/TK_uyen.ii_2026.08.09_11-15-09.mp4
+
+2026-08-09 11:20:43 [INFO] Waiting for Telegram upload slot (uploads run one at a time)...
+2026-08-09 11:20:43 [INFO] Got upload slot, starting Telegram upload.
+2026-08-09 11:20:44 [INFO] File to upload: TK_uyen.ii_2026.08.09_11-15-09.mp4 (8 MB)
+2026-08-09 11:20:44 [INFO] Uploading video on Telegram... This may take a while depending on file size.
+2026-08-09 11:20:53 [INFO] File successfully uploaded to Telegram.
+
+2026-08-09 11:20:53 [INFO] Deleted local file after Telegram upload: /home/tikrecvp/recordings/TK_uyen.ii_2026.08.09_11-15-09.mp4
+

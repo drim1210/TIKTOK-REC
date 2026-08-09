@@ -1,0 +1,2 @@
+[console_scripts]
+tiktok-live-recorder = main:main
