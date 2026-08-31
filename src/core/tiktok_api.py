@@ -414,8 +414,14 @@ class TikTokAPI:
         return self.get_live_urls(room_id, user=user)
 
     def download_live_stream(self, live_url: str):
-        """Generator that returns the live stream for a given room_id."""
-        stream = self._http_client_stream.get(live_url, stream=True)
+        """Generator that returns the live stream for a given room_id.
+
+        Uses a (connect_timeout, read_timeout) so that if the CDN stalls
+        (stops sending data without closing the connection), requests
+        raises an exception instead of hanging forever. The caller in
+        tiktok_recorder.py already retries/reconnects on such errors.
+        """
+        stream = self._http_client_stream.get(live_url, stream=True, timeout=(10, 30))
         for chunk in stream.iter_content(chunk_size=4096):
             if chunk:
                 yield chunk

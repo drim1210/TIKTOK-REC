@@ -5,11 +5,10 @@ __pycache__/
 *.session-journal
 .telegram_upload.lock
 watchlist.txt
-*.bak
-*.bak2
-*.bak3
-*.bak4
-*.bak5
+user_config.txt
+autoconfig.txt
+*.bak*
 src/cookies.json
 src/telegram.json
 .github/
+tiktok-recorder.log*
